@@ -1,0 +1,31 @@
+{
+	"name": "silex-bundle-mailer",
+	"version": "0.0.1",
+	"description": "[SILEX][BUNDLE] Mailer service",
+	"author": "Valentin Allaire <valentin@sitexw.fr>",
+	"license": "MIT",
+	"keywords": [
+		"mailer",
+		"api",
+		"silex",
+		"bundle"
+	],
+	"dependencies": {
+		"nodemailer": "<2.0.0",
+		"spaceload": "<2.0.0"
+	},
+	"devDependencies": {},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/silexjs/bundle-mailer.git"
+	},
+	"bugs": {
+		"url": "https://github.com/silexjs/bundle-mailer/issues"
+	},
+	"homepage": "https://github.com/silexjs/bundle-mailer",
+	"autoload": {
+		"psr-4": {
+			"Silex\\MailerBundle": "./"
+		}
+	}
+}

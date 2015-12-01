@@ -45,7 +45,7 @@ Facebook.prototype = {
 		}
 		var finalConfig = extend(extend({}, this.config.default), config);
 		if(config.view !== undefined) {
-			finalConfig.html = this.containerService.get('templating').renderView(config.view, config.parameters || {});
+			finalConfig.html = this.containerService.get('templating').renderView(config.view, extend({ _config: config }, config.parameters) || {});
 		}
 		var self = this;
 		this.transporter.sendMail(finalConfig, function(error, info) {

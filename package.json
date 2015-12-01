@@ -1,6 +1,6 @@
 {
 	"name": "silex-bundle-mailer",
-	"version": "0.0.1",
+	"version": "0.0.2",
 	"description": "[SILEX][BUNDLE] Mailer service",
 	"author": "Valentin Allaire <valentin@sitexw.fr>",
 	"license": "MIT",
